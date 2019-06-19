@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="images/logo_xgracias.jpeg" alt="Logo" style="width:180px;">
+        </a>
+        <!-- Links -->
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">LOGIN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ADMISSION</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PARENTS LOGIN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">DELA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SSO ACTIVATION</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">OTHERS</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal" data-backdrop="static" data-keyboard="false" style="background: transparent">
+        <div class="modal-dialog">
+            <div class="modal-content" style="margin-top: 100px">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h7 class="modal-title" style="margin-top: 13px;margin-left: 10px">SSO LOGIN</h7>
+                    <button type="button" class="close" data-dismiss="modal" style="text-align: right">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="username" class="form-control" id="username" placeholder="Enter username"
+                                name="username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="pswd">
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

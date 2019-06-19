@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="images/logo_xgracias.jpeg" alt="Logo" style="width:180px;">
+        </a>
+        <!-- Links -->
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">19/20/1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">NOTIFICATION</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ACCOUNT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LANGUAGE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LOGOUT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- The sidebar -->
+    <div class="sidebar">
+        <img src="images/user.jpg" alt="Cinque Terre" style="width:200px;height:170px;">
+        <h3 style="text-align: center">NAMA USER</h3>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                1301154559(NIM)
+            </button>
+            <div class="dropdown-menu">
+                <span class="dropdown-item-text">kelas : </span>
+                <span class="dropdown-item-text">dosen wali :</span>
+                <span class="dropdown-item-text">program studi: </span>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                GROUP PENGGUNA (ROLE 1)
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">ROLE 2</a>
+            </div>
+        </div>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+        </form>
+        <a href="#home">Akun</a>
+        <a href="#news">Asrama Mahasiswa</a>
+        <a href="#contact">Bimbingan Konseling</a>
+        <a href="#about">CeLOE</a>
+        <a href="#about">Dispensasi</a>
+        <a href="#about">Ekuivalensi</a>
+        <a href="#about">Elearning(Idea)</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <h1>Selamat datang #namauser</h1>
+    </div>
+
+</body>
+
+</html>
